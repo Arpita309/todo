@@ -4,12 +4,12 @@ export const TodoProvider = (props) => {
     const [todos, setTodos] = useState([
       {
         "id": Date.now(),
-        "value": "Buy milk",
+        "value": "learn react",
         "done": false
       },
       {
         "id": Date.now() + 1,
-        "value": "Play with doge",
+        "value": "Complete site deployment",
         "done": false  
       }
     ]);
